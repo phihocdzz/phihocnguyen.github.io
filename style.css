@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(222, 26%, 31%);;
+}
+.wrapper{
+    max-width: 770px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+.theme{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.text {
+    margin-right: 15px;
+    font-size: 18px;
+    color: white;
+}
+.option{
+    width: 70px;
+}
+.number {
+    display: flex;
+    justify-content: space-around;
+}
+.number span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button{
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 50px;
+}
+.button button{
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    background: hsl(6, 63%, 50%);
+    border: none;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.screen{
+    width: 100%;
+    background-color: #182034;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 24px;
+    text-align: right;
+    font-size: 32px;
+    color: white;
+    padding: 28px 40px;
+    font-weight: bold;
+}
+.grid {
+    padding: 24px 32px !important;
+}
+.numpad {
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.row button{
+    height: 70px;
+    width: 25%;
+    box-shadow: 0 5px hsl(28, 16%, 65%);
+    background-color: hsl(30, 25%, 89%);
+    margin-bottom: 18px;
+    color: hsl(221, 14%, 31%);
+    font-size: 32px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+.hidden{
+    background-color: transparent !important;
+}
+#del {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 5px hsl(225, 21%, 49%);
+    color: white;
+}
+#reset {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 5px hsl(225, 21%, 49%)    ;
+    color: white;
+    width: 50%;
+}
+#result {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 5px hsl(6, 63%, 50%);
+    color: white;
+    width: 50%;
+}
+.footer{
+    text-align: center;
+}
+a, .footer p {
+    color: white;
+    font-size: 16px;
+}
+a {
+    font-size: 24px !important;
+}
